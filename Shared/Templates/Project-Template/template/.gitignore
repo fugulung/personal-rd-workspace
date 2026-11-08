@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Local editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/settings.local.json
+
+# 共用 Skill 的連結（指向上層 .claude/skills，內容不屬於本產品，不納入版本控制）
+.claude/skills/
+
+# User data: private file names, network paths and thumbnails. Never commit.
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+data/
+
+# Generated / caches
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+dist/
+build/
+.cache/
+*.log

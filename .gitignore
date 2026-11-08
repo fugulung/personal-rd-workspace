@@ -1,0 +1,16 @@
+# L0 若未來初始化 Git，不追蹤各產品倉庫內容
+/Projects/Products/*/
+/Projects/Technology/*/
+!.gitkeep
+__pycache__/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+.vscode/
+
+# 各產品使用獨立 Git：父 Workspace 不追蹤產品資料夾，僅保留專案索引
+/Projects/*
+!/Projects/PROJECT-INDEX.md
+!/Projects/.gitkeep
