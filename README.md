@@ -1,6 +1,7 @@
 # Personal-RD-Workspace Mini
 
 **English** | [繁體中文](README.zh-TW.md)
+<img width="1671" height="941" alt="image" src="https://github.com/user-attachments/assets/b1964266-f436-451f-b865-1d9349efa0db" />
 
 A minimal, portable **AI-assisted R&D workflow** for a solo developer working with [Claude Code](https://claude.com/claude-code): shared rules, three agents (PO / Engineer / QA), two skills (`/ana` requirement analysis, `/hub` open-source research), a small verified knowledge base, and a one-command new-project template.
 
